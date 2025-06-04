@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>LEJO - 45 Jaar Vlaanderen Verkennen (Interactieve Kaart)</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+     <div class="anniversary-logo top-bar-element">
+        <img src="images/45jaarLEJObackgroundSmall.png" alt="LEJO 45 Jaar Feest">
+    </div>
+    <div class="zoom-level top-bar-element" id="zoomLevel">Introductie</div>
+
+    <div class="presentation-container">
+        <div id="map">
+            <div id="map-loader" class="map-feedback">Kaart en locaties laden...</div>
+        </div>
+
+        <!-- Static Content Slides -->
+        <div class="content-slide active" id="slide-intro">
+             <h1>LEJO</h1>
+             <h2>45 Jaar Jongeren Versterken</h2>
+             <p>Een interactieve reis door Vlaanderen. Klik op de markers op de kaart om onze locaties en werkingen te ontdekken!</p>
+             <div class="statistics">
+                 <div class="stat-item"><div class="stat-number">11+</div><div class="stat-label">Locaties & Projecten</div></div>
+                 <div class="stat-item"><div class="stat-number">8</div><div class="stat-label">Kernwerkingen</div></div>
+                 <div class="stat-item"><div class="stat-number">45</div><div class="stat-label">Jaar Ervaring</div></div>
+             </div>
+              <button class="control-btn slide-action-button" onclick="app.startExploration()">Start Verkennen</button>
+        </div>
+        <div class="content-slide" id="slide-werkingen">
+             <h1>Onze Kernwerkingen</h1>
+             <p>Vanuit 45 jaar ervaring bieden we een divers aanbod, aangepast aan de noden van jongeren en hun context.</p>
+              <div class="statistics">
+                 <div class="stat-item"><div class="stat-number">🏕️</div><div class="stat-label">Kampen</div></div>
+                 <div class="stat-item"><div class="stat-number">👨‍👩‍👧‍👦</div><div class="stat-label">Tienerouders</div></div>
+                 <div class="stat-item"><div class="stat-number">🎓</div><div class="stat-label">Vormingen</div></div>
+                 <div class="stat-item"><div class="stat-number">🏘️</div><div class="stat-label">Jeugdopbouwwerk</div></div>
+                 <div class="stat-item"><div class="stat-number">🎯</div><div class="stat-label">NAFT/OAL</div></div>
+                 <div class="stat-item"><div class="stat-number">🤝</div><div class="stat-label">Jeugdhulp</div></div>
+                 <div class="stat-item"><div class="stat-number">💼</div><div class="stat-label">Begeleiding naar Werk</div></div>
+                 <div class="stat-item"><div class="stat-number">🧠</div><div class="stat-label">OverKop</div></div>
+             </div>
+             <button class="control-btn slide-action-button" onclick="app.showSlide('slide-intro')">Terug naar Begin</button>
+        </div>
+         <div class="content-slide" id="slide-toekomst">
+            <h1>De Volgende 45 Jaar</h1>
+            <h2>Samen Verder Bouwen</h2>
+            <p>Met uw steun blijven we investeren in de kracht van jongeren. Omdat elke jongere kansen verdient. Omdat LEJO verbindt en versterkt.</p>
+             <button class="control-btn slide-action-button" onclick="app.showSlide('slide-intro')">Terug naar Begin</button>
+        </div>
+    </div>
+
+    <div id="info-pane">
+        <div id="info-pane-header">
+            <h3 id="info-pane-title">Locatie Details</h3>
+            <button id="info-pane-close" onclick="app.hideInfoPane()" title="Sluiten (Esc)">×</button>
+        </div>
+        <img id="info-pane-image" src="" alt="Afbeelding locatie">
+        <div id="info-pane-content">
+            <!-- Fallback structure (hidden by default) if NOT using contentHTML -->
+            <div class="section" id="pane-description-fallback" style="display:none;">
+                <h4>Wat doen we?</h4>
+                <p></p>
+            </div>
+            <div class="section" id="pane-team-members-fallback" style="display:none;">
+                <h4>Wie zijn wij? (Team)</h4>
+                <ul></ul>
+            </div>
+            <div class="section" id="pane-detail-images-container-fallback" style="display:none;">
+                <h4>Meer Beelden</h4>
+                <div class="detail-images-gallery"></div>
+            </div>
+            <div class="section" id="pane-address-fallback" style="display:none;">
+                <h4>Adres</h4>
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button class="control-btn" onclick="app.showSlide('slide-intro')" id="btn-intro" title="Introductie">Intro</button>
+        <button class="control-btn" onclick="app.resetMapView()" id="btn-overview" title="Kaart Overzicht">Overzicht</button>
+        <button class="control-btn" onclick="app.fitAllMarkers()" id="btn-fit-markers" title="Toon alle locaties">Alle Locaties</button>
+        <button class="control-btn" onclick="app.showSlide('slide-werkingen')" id="btn-werkingen" title="Onze Werkingen">Werkingen</button>
+        <button class="control-btn" onclick="app.showSlide('slide-toekomst')" id="btn-toekomst" title="Toekomstvisie">Toekomst</button>
+    </div>
+
+    <div id="lightbox" class="lightbox-overlay">
+        <div class="lightbox-content-wrapper">
+            <img class="lightbox-content" id="lightboxImg" src="#" alt="Full screen content">
+            <div id="lightboxVideoContainer" style="display: none;"> <!-- display: none is fine here as JS controls it -->
+                <!-- Video iframe or tag will be injected here by JS for lightbox -->
+            </div>
+            <div class="lightbox-caption" id="lightboxCaption"></div>
+        </div>
+        <span class="lightbox-close-btn">×</span>
+    </div>
+
+        <button class="control-btn help-btn" id="btn-help" title="Hulp & Tips">?</button>
+
+    <div id="help-overlay" class="help-overlay-container">
+        <div class="help-content">
+            <button id="help-close-btn" class="help-close" title="Sluiten (Esc)">×</button>
+            <h2>Hulp & Tips voor de Kiosk</h2>
+            <ul>
+                <li>👆 **Tik op markers** op de kaart om details van een LEJO locatie te zien.</li>
+                <li>🖼️ **Tik op afbeeldingen** (hoofdafbeelding of galerij) in het infopaneel om ze vergroot te bekijken.</li>
+                <li>▶️ **Tik op video/media knoppen** om video's af te spelen of links te openen (YouTube/PDF in app, andere extern).</li>
+                <li>🗺️ Gebruik de knoppen onderaan voor **kaartnavigatie** (Intro, Overzicht, Alle Locaties) en om **informatiepagina's** (Werkingen, Toekomst) te bekijken.</li>
+                <li>ESC Gebruik de **Escape-toets** (indien fysiek toetsenbord beschikbaar) of de **sluitknoppen (×)** om vensters te sluiten.</li>
+                <li>🔍 Zoom in en uit op de kaart met de **+/- knoppen** rechtsonder of door te **knijpen/spreiden** met twee vingers op het scherm.</li>
+            </ul>
+            <p>Verken en ontdek de wereld van LEJO!</p>
+        </div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+
+    <!-- Custom JS (Order Matters!) -->
+    <script src="js/ui-components.js"></script>
+    <script src="js/map-manager.js"></script>
+    <script src="js/kiosk-manager.js"></script> <!-- ADDED THIS LINE -->
+    <script src="js/app.js"></script>
+</body>
+</html>

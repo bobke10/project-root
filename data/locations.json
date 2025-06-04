@@ -1,0 +1,766 @@
+[
+    {
+    "id": "gent-hoofdkantoor",
+    "name": "Gent (Hoofdkantoor)",
+    "coordinates": { "lat": 51.071667, "lon": 3.771667 },
+    "title": "LEJO Hoofdkantoor (Gent) & Centrale Projecten",
+    "image": "images/gent_hoofdkantoor.jpg",
+    "address": "Antwerpsesteenweg 701, 9040 Sint-Amandsberg (Gent)",
+    "gallery": [
+        { "src": "images/locations_Teamvoorstelling/Gent Antwerpsesteenweg/team ondersteunende domeinen (1).png", "alt": "Team Ondersteunende Domeinen – 1" },
+        { "src": "images/locations_Teamvoorstelling/Gent Antwerpsesteenweg/team ondersteunende domeinen (2).png", "alt": "Team Ondersteunende Domeinen – 2" },
+        { "src": "images/locations_Teamvoorstelling/Gent Antwerpsesteenweg/Team onderwijs Gent (1).png", "alt": "Team Onderwijs Gent – 1" },
+        { "src": "images/locations_Teamvoorstelling/Gent Antwerpsesteenweg/Team onderwijs Gent (2).png", "alt": "Team Onderwijs Gent – 2" },
+        { "src": "images/locations_Teamvoorstelling/Gent Antwerpsesteenweg/Teamvoorstelling tienerouders.png", "alt": "Team Tienerouders" },
+        { "src": "images/locations_Teamvoorstelling/Gent Antwerpsesteenweg/Team jeugdwerk Gent (1).png", "alt": "Team Jeugdwerk Gent Sfeerbeeld 1" },
+        { "src": "images/locations_Teamvoorstelling/Gent Antwerpsesteenweg/Team jeugdwerk Gent (2).png", "alt": "Team Jeugdwerk Gent Sfeerbeeld 2" },
+        { "src": "images/locations_Teamvoorstelling/Gent Antwerpsesteenweg/Team jeugdwerk Gent (3).png", "alt": "Team Jeugdwerk Gent Sfeerbeeld 3" },
+        { "src": "images/foto lejoxp.png", "alt": "LEJO XP Basic Vorming", "caption": "XP Basic Vorming"}
+    ],
+    "media": [
+        { "id": "gent-sameninblok-jaarverslag", "type": "pdf-link", "src": "images/jaarverslagen/placeholder_gent_sameninblok_p14.pdf", "alt": "Jaarverslag Samen In Blok (p14)" },
+        { "id": "gent-oal-jaarverslag", "type": "pdf-link", "src": "images/jaarverslagen/placeholder_gent_oal_p17.pdf", "alt": "Jaarverslag OAL (p17)" },
+        { "id": "gent-funisland-warmworden-ig", "type": "instagram", "src": "https://www.instagram.com/reel/CvExfXXIjzH/", "alt": "Waar worden LEJO jongeren warm van (Fun Island Kamp)" },
+        { "id": "gent-podcast-overdrempels-yt", "type": "youtube", "src": "https://youtu.be/BM0Ar0YBKhw", "alt": "Podcast Over Drempels afl. 1 (Vrije Tijd)" },
+        { "id": "gent-animatorcursus-anass-ig", "type": "instagram", "src": "https://www.instagram.com/reel/CvWuqIQq2pQ/", "alt": "Getuigenis Animatorcursus met Anass" },
+        { "id": "gent-vorming-2022-yt", "type": "youtube", "src": "https://youtu.be/3j4KBXMh38k", "alt": "Zo zag 2022 eruit voor Vorming bij LEJO" },
+        { "id": "gent-vorming-tijdvoorgesprek-fb", "type": "youtube", "src": "https://youtu.be/Qysc2-ZtpZ0", "alt": "LEJO - Tijd maken voor het gesprek (Facebook video source)" },
+        { "id": "gent-vorming-zomerbuitenland-fb", "type": "link", "src": "https://www.facebook.com/lejoversterktjongeren/posts/pfbid0sHETvyPJM8WnamQrMTvr4pFeeCAKRjfApK2kRU39PrA5SSjWrgdwyLqSL98t8JScl", "alt": "LEJO - De zomer ... in het buitenland (Facebook post)" },
+        { "id": "gent-kampenvrijwilligers-2022-yt", "type": "youtube", "src": "https://youtu.be/Qysc2-ZtpZ0", "alt": "Zo zag 2022 eruit voor Kampen en Vrijwilligers LEJO" },
+        { "id": "gent-valentijn-lejo-fos-ig", "type": "instagram", "src": "https://www.instagram.com/reel/CoozZn_IBpw/", "alt": "Getuigenissen LEJO x FOS-kamp (Valentijn)" },
+        { "id": "gent-vrijwilligers-ronse-verhaal-ig", "type": "instagram", "src": "https://www.instagram.com/reel/CpVOtRwI9gh/", "alt": "Verhaal vrijwilligers LEJO Ronse (via Gent socials)" },
+        { "id": "gent-tienerouders-2022-yt", "type": "youtube", "src": "https://youtu.be/ydKQHbCn52M", "alt": "Zo zag 2022 eruit voor Tienerouderwerking LEJO" },
+        { "id": "gent-zomerbar-sharepoint", "type": "sharepoint-link", "src": "https://lejo.sharepoint.com/sites/team/_layouts/15/stream.aspx?id=%2Fsites%2Fteam%2Fsup%20%20COMMUNICATIE%2F2021%2FVIDEO%2Fzomerbar%202021%2Fzomerbarreel%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb0b5786f%2Dcd5b%2D4851%2Db28a%2D057ad2c65bbe", "alt": "De LEJO Zomerbar (SharePoint Video)" },
+        { "id": "gent-lejo-fos-kamp-yt", "type": "youtube", "src": "https://youtu.be/CkcF5N5-rwA", "alt": "LEJO x FOS-kamp Video" },
+        { "id": "gent-dromenzonderzorgen-yt", "type": "youtube", "src": "https://youtu.be/RmxHOjcWdKQ", "alt": "De Warmste Week - Dromen zonder zorgen" },
+        { "id": "gent-tienerouders-vragenrondje-yt", "type": "youtube", "src": "https://youtu.be/aGEfgWEZFSs", "alt": "Teensgezinsreis vragenrondje" },
+        { "id": "gent-teambuildingbegeleiders-yt", "type": "youtube", "src": "https://www.youtube.com/watch?v=OrX99Ck-eUw", "alt": "Teambuilding voor begeleiders van een voorziening" },
+        { "id": "gent-weekvandevrijwilliger-ig", "type": "instagram", "src": "https://www.instagram.com/p/C4LViU-tRu5/", "alt": "Week van de vrijwilliger - Getuigenissen" },
+        { "id": "gent-oalnaft-jaarverslag-pdf", "type": "pdf-link", "src": "images/Location_Fotosacitviteiten/Gent Antwerpsesteenweg_Fotosactiviteiten/Jaarverslag 2023-halves-15.pdf", "alt": "Jaarverslag OAL/NAFT Gent (PDF)"},
+        { "id": "interview-onderwijs-yt", "type": "youtube", "src": "https://youtu.be/VoqyHUkGX7o", "alt": "Interview Onderwijs"},
+        { "id": "naft-lena-yt", "type": "youtube", "src": "https://youtu.be/ByGaemXCIAg", "alt": "NAFT Traject Lena"},
+        { "id": "instagram-lejo-main", "type": "instagram", "src": "https://www.instagram.com/lejoversterktjongeren/", "alt": "Volg LEJO op Instagram" }
+    ],
+    "sections": [
+        {
+            "title": "Hoofdkantoor LEJO",
+            "text": "Centrale administratieve zetel van LEJO vzw. Van hieruit worden alle bovenlokale werkingen gecoördineerd en de lokale werkingen ondersteund."
+        },
+        {
+            "title": "Vakantiekampen & Jeugdwerk",
+            "text": [
+                "Jaarlijkse vakantiekampen voor jongeren (12+ en 15+), met een focus op avontuur, verbinding en persoonlijke groei.",
+                "Algemeen jeugdwerk met diverse activiteiten en projecten doorheen het jaar."
+            ],
+            "link": "https://lejo.be/vakantiekampen/", "linkText": "Meer info & Kampaanbod",
+            "items": [
+                {"text": "Contact: kampen@lejo.be – 09 233 21 54"}
+            ],
+            "mediaIds": [
+                "gent-funisland-warmworden-ig",
+                "gent-kampenvrijwilligers-2022-yt",
+                "gent-valentijn-lejo-fos-ig",
+                "gent-lejo-fos-kamp-yt",
+                "gent-dromenzonderzorgen-yt",
+                "gent-weekvandevrijwilliger-ig"
+            ],
+            "links": [
+                {"text": "LEJO wordt warm - Verhalen", "url": "https://lejo.be/verhaal/lejo-wordt-warm/"},
+                {"text": "Afsluit van de zomer - Verhalen", "url": "https://lejo.be/verhaal/afsluit-van-de-zomer/"}
+            ]
+        },
+        {
+            "title": "Vorming",
+            "text": "LEJO biedt een breed scala aan vormingen voor zowel jongeren als professionals die met jongeren werken. Thema's omvatten ervaringsleren, groepsdynamica, en specifieke methodieken.",
+            "link": "https://lejo.be/vorming/", "linkText": "Ontdek ons Vormingsaanbod",
+            "mediaIds": [
+                "gent-animatorcursus-anass-ig",
+                "gent-vorming-2022-yt",
+                "gent-vorming-tijdvoorgesprek-fb",
+                "gent-vorming-zomerbuitenland-fb",
+                "gent-teambuildingbegeleiders-yt"
+            ]
+        },
+        {
+            "title": "Tienerouderwerking",
+            "text": "Specifieke ondersteuning, begeleiding en activiteiten voor tienerouders en hun kinderen, gericht op versterking en netwerkvorming.",
+            "link": "https://lejo.be/tienerouders/", "linkText": "Meer over Tienerouderwerking",
+            "mediaIds": [
+                "gent-tienerouders-2022-yt",
+                "gent-tienerouders-vragenrondje-yt"
+            ]
+        },
+        {
+            "title": "NAFT & OAL (Onderwijstrajecten)",
+            "text": "Naadloze Flexibele Trajecten (NAFT) en Ondersteuning Alternerend Leren (OAL) voor jongeren in Gent, om schooluitval tegen te gaan en jongeren te heroriënteren.",
+            "link": "https://lejo.be/onderwijstrajecten/", "linkText": "Info Onderwijstrajecten",
+            "mediaIds": [
+                "interview-onderwijs-yt",
+                "naft-lena-yt",
+                "gent-oalnaft-jaarverslag-pdf",
+                "gent-oal-jaarverslag"
+            ]
+        },
+        {
+            "title": "Samen In Blok",
+            "text": "Begeleiding en een rustige studeerplek voor jongeren tijdens de blokperiodes.",
+            "mediaIds": ["gent-sameninblok-jaarverslag"]
+        },
+        
+        {
+            "title": "Podcasts, Socials & Overige Media",
+            "text": "LEJO is actief op verschillende platformen om jongeren te bereiken en verhalen te delen.",
+            "mediaIds": [
+                "gent-podcast-overdrempels-yt",
+                "gent-vrijwilligers-ronse-verhaal-ig",
+                "gent-zomerbar-sharepoint",
+                "instagram-lejo-main"
+            ]
+        }
+    ]
+    },
+    {
+    "id": "in-beeld-gent",
+    "name": "In Beeld (Gent Patershol)",
+    "coordinates": { "lat": 51.059157, "lon": 3.7225751 },
+    "title": "In Beeld - Ervaringsgerichte Dagbesteding",
+    "image": "images/in_beeld_patershol.jpg",
+    "address": "Craemersklooster, Lange Steenstraat 18, 9000 Gent",
+    "gallery": [
+        { "src": "images/Location_Fotosacitviteiten/InBeeld_Fotosactiviteiten/InBeeld4.jpg", "alt": "", "caption": ""},
+        { "src": "images/Location_Fotosacitviteiten/InBeeld_Fotosactiviteiten/InBeeld5.jpg", "alt": "", "caption": ""}
+    
+    
+    ],
+    "media": [
+        { "id": "inbeeld-laurena-yt", "type": "youtube", "src": "https://youtu.be/p5Fx2vGkfG8", "alt": "Laurena vertelt over In Beeld" },
+        { "id": "inbeeld-socials-ig", "type": "instagram", "src": "https://www.instagram.com/lejo_inbeeld/", "alt": "Volg In Beeld op Instagram"},
+        { "id": "inbeeld-xxlcafe-2022-yt", "type": "youtube", "src": "https://youtu.be/GD01gU1z6S0", "alt": "LEJO Café XXL 2022 (In Beeld)" },
+        { "id": "inbeeld-opstart-fb", "type": "link", "src": "https://www.facebook.com/watch/?v=963539754297260", "alt": "Opstart project In Beeld (Facebook)" },
+        { "id": "inbeeld-xxlcafe-2024-ig", "type": "instagram", "src": "https://www.instagram.com/p/DByhITPCoDc/", "alt": "LEJO Café XXL 2024 (Instagram)" }
+    ],
+    "sections": [
+        {
+            "title": "Over In Beeld",
+            "text": [
+                "‘In Beeld’ in het Patershol (Gent) is een kruispuntplek waar jongeren in een precaire leefsituatie rust en beweging vinden. Het is een plek voor ervaringsgerichte dagbesteding waar jongeren kunnen zoeken, proeven, experimenteren en spontaan zichzelf zijn, zonder oordeel.",
+                "We werken volgens de principes van institutionele pedagogie, waarbij jongeren zelf betekenis geven aan hun dag en zo (opnieuw) in beweging komen. ONT-MOETEN staat centraal."
+            ],
+            "mediaIds": ["inbeeld-laurena-yt", "inbeeld-opstart-fb"]
+        },
+        {
+            "title": "Kernprincipes & Werking",
+            "items": [
+                {"text": "<strong>Fundamenten:</strong> Transparante communicatie, gelijkwaardigheid, engagement, en vertrouwen. De werking is van en mét de jongeren."},
+                {"text": "<strong>Rollen:</strong> Een vaste 'Rots' (begeleider) voor rust en overzicht, en 'Golf' (stagiaires/vrijwilligers) voor beweging en ondersteuning."},
+                {"text": "<strong>Instituten:</strong> Laagdrempelige 'Poort' (open 11-16u), communicatief 'Bord', focus op 'Actie' (jongereninitiatief) en reflectieve 'Rondes'."},
+                {"text": "<strong>Doel:</strong> Een professionele hangplek en springplank zijn, waar jongeren connectie maken en bruggen slaan naar de samenleving op eigen tempo."}
+            ]
+        },
+        {
+            "title": "LEJO Café XXL",
+            "text": [""],
+            "mediaIds": [
+                "inbeeld-xxlcafe-2022-yt",
+                "inbeeld-xxlcafe-2024-ig",
+                "inbeeld-socials-ig"
+            ]
+        }
+        
+    ]
+    },
+    {
+    "id": "aalst",
+    "name": "Aalst",
+    "coordinates": { "lat": 50.943889, "lon": 4.0425 },
+    "title": "LEJO Aalst",
+    "image": "images/locations_Teamvoorstelling/Aalst/AalstTeam.png",
+    "address": "Hertshage 11, 9300 Aalst",
+    "gallery": [
+        { "src": "images/locations_Teamvoorstelling/Aalst/Overkop Aalst.png", "alt": "Team OverKop Aalst" },
+        { "src": "images/Location_Fotosacitviteiten/Aalst_Fotosactiviteiten/Aalst zeiltocht.png", "alt": "Aalst Zeiltocht Windkracht", "caption": "Project Windkracht Sfeer" }
+    ],
+    "media": [
+        { "id": "aalst-podcast-allo-yt", "type": "youtube", "src": "https://www.youtube.com/watch?v=nU8vNy_6uqA", "alt": "LEJO Podcast - Buurtwildt - Allo?!" },
+        { "id": "aalst-windkracht-fotoreportage-pdf", "type": "pdf-link", "src": "images/Location_Fotosacitviteiten/Aalst_Fotosactiviteiten/Jaarverslag 2023-halves-27.pdf", "alt": "Fotoverslag Windkracht Zeilproject" }, 
+        { "id": "aalst-muziekstudio-buurtwildt-toonmoment-yt", "type": "youtube", "src": "https://youtu.be/jhxPWKaOqfI", "alt": "Buurtwildt Toonmoment Studio 93 Rapnummer" },
+        { "id": "aalst-podcast-allo-soundcloud", "type": "link", "src": "https://soundcloud.com/netwerklokaalsportbeleid/12-project-allo-verbindt-jongeren-en-politie", "alt": "Podcast Lokaal Sportbeleid - Project ALLO?!" },
+        { "id": "aalst-overkopcast-spotify", "type": "spotify-link", "src": "https://open.spotify.com/show/3M8jqOK6pfQnClfwgbqlkb", "alt": "OverKopCAST Aalst (Spotify)"},
+        { "id": "aalst-jaarverslag-projectallo-pdf", "type": "pdf-link", "src": "images/Location_Fotosacitviteiten/Aalst_Fotosactiviteiten/Jaarverslag 2023-halves-28.pdf", "alt": "Jaarverslag Project Allo?! (PDF)"} 
+    ],
+    "sections": [
+        {
+            "title": "Jeugdopbouwwerk Aalst",
+            "text": "LEJO is actief in Aalst met jeugdopbouwwerk, waaronder een wekelijks instuiflokaal en outreachend werk op straat. We ondersteunen jongeren en bouwen bruggen in de gemeenschap.",
+            "link": "https://lejo.be/jeugdopbouwwerk/", "linkText": "Meer over Jeugdopbouwwerk"
+        },
+        {
+            "title": "Project Allo?!",
+            "text": [
+                "Een verbindend project tussen jongeren en de politie in Aalst (Buurtwildt). Het doel is om betere communicatie en wederzijds begrip en respect te bevorderen.",
+                "Wanneer jongeren en politie met elkaar in contact kwamen was het meestal geen aangename ontmoeting. Luister in de podcasts naar hoe beide partijen dit ervaren hebben."
+            ],
+            "mediaIds": [
+                "aalst-podcast-allo-yt",
+                "aalst-podcast-allo-soundcloud",
+                "aalst-jaarverslag-projectallo-pdf"
+            ],
+            "links": [
+                { "text": "Lees meer: Politie en jongeren met Allo?!", "url": "https://lejo.be/verhaal/politie-en-jongeren-met-alloo/" }
+            ]
+        },
+        {
+            "title": "Project Windkracht",
+            "text": "Een avontuurlijk zeilproject met jongeren uit de jeugdhulp, gericht op samenwerking, zelfvertrouwen en nieuwe ervaringen opdoen.",
+            "mediaIds": [
+                "aalst-windkracht-fotoreportage-pdf"
+            ],
+            "items": [
+                {"text": "Bekijk het fotoverslag van dit unieke project."}
+            ]
+        },
+        {
+            "title": "Muziekstudio Buurtwildt",
+            "text": "Jongeren krijgen de kans om hun muzikaal talent te ontdekken en te ontwikkelen in de muziekstudio. Dit resulteert o.a. in eigen rapnummers over hun leefwereld.",
+            "mediaIds": [
+                "aalst-muziekstudio-buurtwildt-toonmoment-yt"
+            ],
+            "items": [
+                {"text": "Beluister het rapnummer van jongeren over Buurtwildt."}
+            ]
+        },
+        {
+            "title": "OverKop Aalst",
+            "text": "OverKop is een plek waar jongeren tot 25 jaar terechtkunnen voor een luisterend oor, een leuke activiteit of gewoon om even tot rust te komen. LEJO is partner in de OverKop-werking in Aalst.",
+            "mediaIds": [
+                "aalst-overkopcast-spotify"
+            ]
+        }
+    ]
+    },
+    {
+        "id": "antwerpen-duinstraat",
+        "name": "LEJO Antwerpen (Duinstraat)",
+        "coordinates": { "lat": 51.222394, "lon": 4.431114 },
+        "title": "LEJO Antwerpen - Team Duinstraat",
+        "image": "images/locations_Teamvoorstelling/Antwerpen Duinstraat/Teamvoorstelling Duinstraat.png",
+        "address": "Duinstraat 102, 2060 Antwerpen",
+        "gallery": [
+             { "src": "images/locations_Teamvoorstelling/Antwerpen Duinstraat/Team Duinstraat 1.jpg", "alt": "Team Duinstraat Antwerpen Sfeerbeeld 1", "caption": "Team Duinstraat 1"},
+             { "src": "images/locations_Teamvoorstelling/Antwerpen Duinstraat/Team Duinstraat 2.jpg", "alt": "Team Duinstraat Antwerpen Sfeerbeeld 2", "caption": "Team Duinstraat 2"}
+        ],
+        "media": [
+            { "id": "onderwijstrajecten-lejo-2022-yt", "type": "youtube", "src": "https://youtu.be/AOjDue0_x0o", "alt": "Zo zag 2022 eruit voor de onderwijstrajecten LEJO" }
+        ],
+        "sections": [
+            {
+                "title": "NAFT Antwerpen (Team Duinstraat)",
+                "text": "Vanuit de Duinstraat bieden we Naadloze Flexibele Trajecten (NAFT) in Antwerpen. Dit omvat individuele coaching, versterkende groepswerkingen, klastrajecten en leerkrachtondersteuning.",
+                "link": "https://lejo.be/onderwijstrajecten/"
+            },
+            {
+                "title": "OAL Antwerpen (Team Duinstraat)",
+                "text": "Ook Ondersteuning Alternerend Leren (OAL) behoort tot de werking van ons team in de Duinstraat, Antwerpen.",
+                "link": "https://lejo.be/onderwijstrajecten/"
+            },
+            {
+                "title": "Terugblik Onderwijstrajecten LEJO",
+                "text": "Bekijk een algemene terugblik op de onderwijstrajecten binnen LEJO (Antwerpen, Brasschaat, Boom, Gent).",
+                "mediaIds": ["onderwijstrajecten-lejo-2022-yt"]
+            }
+        ]
+    },
+    {
+        "id": "boom",
+        "name": "Boom (Onderwijsteam)",
+        "coordinates": { "lat": 51.0975, "lon": 4.369722 },
+        "title": "LEJO Boom (Onderwijsteam)",
+        "image": "images/locations_Teamvoorstelling/Boom/voostelling team Boom.png",
+        "address": "Victor De Meyerestraat 22, 2850 Boom",
+        "gallery": [
+            {"src": "images/Location_Fotosacitviteiten/Boom_Fotosactiviteiten/LEJO BOOM transisitietrajecten.png", "alt": "Transitietrajecten Boom"}
+        ],
+        "media": [
+            {"id": "boom-onderwijstrajecten-2022", "type": "youtube", "src": "https://youtu.be/AOjDue0_x0o", "alt": "Jaaroverzicht 2022 Onderwijstrajecten Boom"},
+            {"id": "boom-jaarverslag-transitie-pdf", "type": "pdf-link", "src": "images/Location_Fotosacitviteiten/Boom_Fotosactiviteiten/Jaarverslag 2023-halves-17.pdf", "alt": "Jaarverslag Transitietrajecten (PDF)"}
+        ],
+        "sections": [
+            { "title": "Transitietrajecten Boom", "text": "Ondersteuning voor potentiële vroegtijdige schoolverlaters.", "link": "https://lejo.be/onderwijstrajecten/", "mediaId":"boom-jaarverslag-transitie-pdf" },
+            { "title": "NAFT Boom", "text": "Individuele NAFT trajecten.", "link": "https://lejo.be/onderwijstrajecten/"},
+            { "title": "Jaaroverzicht Onderwijstrajecten", "mediaId": "boom-onderwijstrajecten-2022"}
+        ]
+    },
+    {
+    "id": "brasschaat",
+    "name": "Brasschaat",
+    "coordinates": { "lat": 51.310833, "lon": 4.519167 },
+    "title": "LEJO Brasschaat (Boerderijwerking)",
+    "image": "images/locations_Teamvoorstelling/Brasschaat/voostelling team Brasschaat.png",
+    "address": "Bredabaan 877, 2930 Brasschaat (Boerderijwerking)",
+    "gallery": [
+        {"src": "images/Location_Fotosacitviteiten/Brasschaat_Fotosactiviteiten/LEJO BOOM transisitietrajecten - Copy.png", "alt": "OAL Brasschaat Sfeer"},
+        {"src": "images/Location_Fotosacitviteiten/Brasschaat_Fotosactiviteiten/Boerderijwerking_sfeer1.jpg", "alt": "Boerderijwerking Brasschaat Sfeerbeeld 1", "caption": "Boerderij Sfeer"},
+        {"src": "images/Location_Fotosacitviteiten/Brasschaat_Fotosactiviteiten/Boerderijwerking_sfeer2.jpg", "alt": "Boerderijwerking Brasschaat Sfeerbeeld 2", "caption": "Dieren op de boerderij"}
+    ],
+    "media": [
+        { "id": "brasschaat-maxim-naft-traject-yt", "type": "youtube", "src": "https://youtu.be/JTaOS5NBLQM", "alt": "Beluister het NAFT traject van Maxim" },
+        { "id": "brasschaat-oal-jaarverslag-pdf", "type": "pdf-link", "src": "images/Location_Fotosacitviteiten/Brasschaat_Fotosactiviteiten/Jaarverslag 2023-halves-18.pdf", "alt": "Jaarverslag OAL Brasschaat (PDF)" }, 
+        { "id": "onderwijstrajecten-lejo-2022-yt", "type": "youtube", "src": "https://youtu.be/AOjDue0_x0o", "alt": "Zo zag 2022 eruit voor de onderwijstrajecten LEJO" },
+        { "id": "brasschaat-terugkomavond-eenslejoer-ig", "type": "instagram", "src": "https://www.instagram.com/p/ClTOwE4ofyP/", "alt": "Terugkomavond: Eens een LEJO'er, altijd een LEJO'er!" },
+        { "id": "brasschaat-naft-interview-maxim-sharepoint", "type": "sharepoint-link", "src": "https://lejo.sharepoint.com/sites/team/_layouts/15/stream.aspx?id=%2Fsites%2Fteam%2Fsup%20%20COMMUNICATIE%2F2024%2FVIDEO%2F02%20%2D%20NAFT%20%2D%20Interview%20Maxim%2FExport%2FLEJO%20NAFT%5FInterview%20Maxim%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E0f5930af%2D83dd%2D41a2%2Da281%2D7ba0b6ae83ad", "alt": "LEJO NAFT - Interview Maxim (SharePoint Video)" },
+        { "id": "brasschaat-45j-boerderij-sharepoint", "type": "sharepoint-link", "src": "https://lejo.sharepoint.com/:v:/s/team/Efin8V_FfIdIkHaM9HeLV4wBAMkqMFDmn6saEtiP6apcTA?e=gz0Jef&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D", "alt": "Brasschaat_45J" },
+        { "id": "brasschaat-cycling4lejo-seba-yt", "type": "youtube", "src": "https://youtu.be/zr8NctBXFRM", "alt": "Cycling 4 LEJO met SebaVerhaal" }
+    ],
+    "sections": [
+        {
+            "title": "NAFT Brasschaat (Boerderijwerking)",
+            "text": "Op onze boerderijwerking in Brasschaat bieden we Naadloze Flexibele Trajecten (NAFT) aan. Jongeren gaan aan de slag met activiteiten met een groen karakter, werken met dieren en in de natuur. Dit helpt hen schoolmoeheid te overwinnen en nieuwe vaardigheden te ontdekken.",
+            "link": "https://lejo.be/onderwijstrajecten/", "linkText": "Meer over Onderwijstrajecten",
+            "mediaIds": [
+                "brasschaat-maxim-naft-traject-yt",
+                "brasschaat-naft-interview-maxim-sharepoint",
+                "brasschaat-cycling4lejo-seba-yt"
+            ]
+        },
+        {
+            "title": "OAL Brasschaat",
+            "text": "Ondersteuning Alternerend Leren (OAL) vindt eveneens plaats op de boerderij, waar jongeren praktijkervaring opdoen in een unieke, rustgevende omgeving.",
+            "link": "https://lejo.be/onderwijstrajecten/", "linkText": "Details OAL",
+            "mediaIds": [
+                "brasschaat-oal-jaarverslag-pdf"
+            ]
+        },
+        {
+            "title": "Community & Terugblikken",
+            "text": "LEJO Brasschaat hecht veel waarde aan de community. We organiseren terugkomavonden voor oud-jongeren en vrijwilligers en delen graag onze successen en ervaringen.",
+            "mediaIds": [
+                "brasschaat-terugkomavond-eenslejoer-ig",
+                "onderwijstrajecten-lejo-2022-yt" ,
+                "brasschaat-45j-boerderij-sharepoint"
+            ]
+        }
+    ]
+},
+    {
+    "id": "compot",
+    "name": "Compot (Doornzele) & Kanaaldorpen",
+    "coordinates": { "lat": 51.143056, "lon": 3.762222 },
+    "title": "Compot & Jeugdopbouwwerk Kanaaldorpen",
+    "image": "images/locations_Teamvoorstelling/Compot/EvergemTeam.png",
+    "address": "Compot: Doornzeledries 55, 9940 Evergem (Doornzele). Werking ook in Rieme, Langerbrugge, Kerkbrugge.",
+    "gallery": [
+        {
+            "src": "images/Location_Fotosacitviteiten/Compot_Fotosactiviteiten/Zorzame buurten Compot.png",
+            "alt": "Project Zorgzame Buurten op Compot",
+            "caption": "Zorgzame Buurten"
+        },
+        {
+            "src": "images/Location_Fotosacitviteiten/Compot_Fotosactiviteiten/Liese LEJO.jpg",
+            "alt": "Liese - Kindgerichte Wijkregisseur Kanaaldorpen",
+            "caption": "Liese (LEJO)"
+        }
+    ],
+    "media": [
+        {
+            "id": "compot-buitenbeeld-yt",
+            "type": "youtube",
+            "src": "https://youtu.be/J3pkOxqO5ts",
+            "alt": "Een dag Buiten Beeld (Compot)"
+        }
+    ],
+    "sections": [
+        {
+            "title": "Compot - Ervaringsgerichte Plek (Doornzele)",
+            "text": "Compot is een unieke, ervaringsgerichte plek in Doornzele voor ontmoeting, verbinding en experiment. Beheerd door Stappen VZW en LEJO vzw, dient het als uitvalsbasis voor diverse projecten.",
+            "mediaId": "compot-buitenbeeld-yt"
+        },
+        {
+            "title": "Jeugdopbouwwerk Kanaaldorpen (Kindgerichte Wijkregisseur)",
+            "text": [
+                "Liese is als kindgerichte wijkregisseur van LEJO actief in de kanaaldorpen (Doornzele, Rieme, Langerbrugge, Kerkbrugge), met focus op buurtversterking.",
+                "Ze brengt sociale organisaties in kaart, legt contact met scholen en buurt, en werkt rond thema's als vrije tijd, welzijn en mobiliteit.",
+                "Vanuit Compot ondersteunt ze buurtbewoners met ideeën en creëert ontmoeting voor kinderen en jongeren."
+            ],
+            "link": "https://lejo.be/jeugdopbouwwerk/",
+            "linkText": "Info Jeugdopbouwwerk"
+        },
+        {
+            "title": "Project Zorgzame Buurten",
+            "text": "Het project 'Zorgzame Buurten', gericht op sociale cohesie, vindt plaats op en rond Compot."
+        },
+        {
+            "title": "Meer Informatie",
+            "links": [
+                {"text": "Ontdek Compot op lejo.be", "url": "https://lejo.be/compot/"},
+                {"text": "Bezoek de website van Compot", "url": "https://www.compot.be/"}
+            ]
+        }
+    ]
+},
+        {
+    "id": "ronse",
+    "name": "Ronse",
+    "coordinates": { "lat": 50.748889, "lon": 3.601111 },
+    "title": "LEJO Ronse",
+    "image": "images/locations_Teamvoorstelling/Ronse/Ronse (1).png",
+    "address": "Priesterstraat 13, 9400 Ronse",
+    "gallery": [
+         {"src": "images/Location_Fotosacitviteiten/Ronse_Fotosactiviteiten/Hoofdoekverbod Ronse.png", "alt": "Dialoog Hoofddoekenverbod Ronse"},
+         {"src": "images/Ronse studio.png", "alt": "Studio RNX Ronse"},
+         {"src": "images/Location_Fotosacitviteiten/Ronse_Fotosactiviteiten/ronse_sfeer1.jpg", "alt": "Sfeerbeeld LEJO Ronse 1"},
+         {"src": "images/Location_Fotosacitviteiten/Ronse_Fotosactiviteiten/ronse_sfeer2.jpg", "alt": "Sfeerbeeld LEJO Ronse 2"}
+    ],
+    "media": [
+        {
+            "id": "ronse-jaarverslag-hoofddoek-p15-pdf", 
+            "type": "pdf-link",
+            "src": "images/Location_Fotosacitviteiten/Ronse_Fotosactiviteiten/Hoofdoekverbod Ronse.png", 
+            "alt": "Jaarverslag 2023 (p15): Dialoog hoofddoekenverbod"
+        },
+        {
+            "id": "ronse-buurtspeelplein-promo-ig", 
+            "type": "instagram",
+            "src": "https://www.instagram.com/reel/CvhMutboCFF/",
+            "alt": "Promo Buurtspeelplein Ronse (Instagram)"
+        },
+        {
+            "id": "ronse-dagtegenracisme-muziekvideo-yt",
+            "type": "youtube",
+            "src": "https://www.youtube.com/watch?v=OCQf9A7v--M",
+            "alt": "Muziekvideo Studio RNX: Dag tegen Racisme"
+        },
+        {
+            "id": "ronse-jongtalentraptopera-yt", 
+            "type": "youtube",
+            "src": "https://youtu.be/mlHm_OPy56g", 
+            "alt": "Jong talent rapt opera bij LEJO Ronse"
+        },
+        {
+            "id": "ronse-coachquartier-yt",
+            "type": "youtube",
+            "src": "https://youtu.be/b1Yo8mpKTyA",
+            "alt": "Coach Quartier: Verbinding via sport"
+        },
+        {
+            "id": "ronse-openhuis-sharepoint", 
+            "type": "sharepoint-link", 
+            "src": "https://lejo.sharepoint.com/sites/team/_layouts/15/stream.aspx?id=%2Fsites%2Fteam%2Fsup%20%20COMMUNICATIE%2F2021%2FOnline%20content%202021%2FOpenhuis%20LEJO%20ROnse%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Edae4cd11%2D5bb2%2D40bb%2Da478%2D446f257e8f6a",
+            "alt": "Video Openhuis LEJO Ronse (SharePoint)"
+        },
+        {
+            "id": "ronse-buurtspeelplein-zomerwerking-yt", 
+            "type": "youtube",
+            "src": "https://youtu.be/dmTh_PoSRRw",
+            "alt": "Zomerwerking LEJO Ronse - Buurtspeelplein"
+        },
+        { "id": "ronse-jaarverslag-buurtspeelplein-pdf", "type": "pdf-link", "src": "images/Location_Fotosacitviteiten/Ronse_Fotosactiviteiten/Jaarverslag 2023-halves-30.pdf", "alt": "Jaarverslag Buurtspeelplein (PDF)"},
+        { "id": "ronse-jaarverslag-girlproof-pdf", "type": "pdf-link", "src": "images/Location_Fotosacitviteiten/Ronse_Fotosactiviteiten/Jaarverslag 2023-halves-31.pdf", "alt": "Jaarverslag G.I.R.L. Proof (PDF)"}
+    ],
+    "sections": [
+        {
+            "title": "Jeugdopbouwwerk Ronse",
+            "text": "LEJO Ronse zet sterk in op outreachend jeugdopbouwwerk. We gaan actief in dialoog met jongeren en partners, zoals scholen over het hoofddoekenverbod, organiseren openhuisdagen en ondersteunen diverse projecten om jongeren te versterken.",
+            "link": "https://lejo.be/verhaal/opmijnbusbenikookeenbeetjejeugdopbouwwerker/",
+            "linkText": "Verhaal: 'Op mijn bus ben ik ook jeugdopbouwwerker'",
+            "mediaIds": [
+                "ronse-jaarverslag-hoofddoek-p15-pdf",
+                "ronse-jongtalentraptopera-yt",
+                "ronse-openhuis-sharepoint"
+            ]
+        },
+        {
+            "title": "Buurtspeelplein Ronse",
+            "text": "Tijdens de zomermaanden brengt LEJO Ronse leven op verschillende pleintjes met een bruisende buurtspeelpleinwerking, georganiseerd samen met fantastische vrijwilligers. Een plek voor spel, ontmoeting en plezier voor alle kinderen en jongeren.",
+            "mediaIds": [
+                "ronse-buurtspeelplein-promo-ig",
+                "ronse-buurtspeelplein-zomerwerking-yt",
+                "ronse-jaarverslag-buurtspeelplein-pdf" 
+            ]
+        },
+        {
+            "title": "STUDIO RNX & Muziekprojecten",
+            "text": "In Studio RNX krijgen jongeren de kans om hun muzikale talenten te uiten en op te nemen. Dit leidt tot krachtige creaties, zoals muziekvideo's die thema's als racisme aankaarten.",
+            "mediaIds": [
+                "ronse-dagtegenracisme-muziekvideo-yt"
+            ]
+        },
+        {
+            "title": "Coach Quartier",
+            "text": "Dit project legt de focus op verbinding creëren tussen jongeren en hun wijk door middel van sportactiviteiten, waarbij ontmoeting en positieve interactie centraal staan.",
+            "mediaIds": [
+                "ronse-coachquartier-yt"
+            ]
+        },
+        {
+            "title": "G.I.R.L. Proof",
+            "text": "Specifieke projecten en activiteiten gericht op het versterken van meisjes en jonge vrouwen in Ronse.",
+            "mediaIds": [
+                "ronse-jaarverslag-girlproof-pdf" 
+            ]
+        }
+    ]
+},
+{
+    "id": "evergem",
+    "name": "Evergem",
+    "coordinates": { "lat": 51.111944, "lon": 3.710556 },
+    "title": "LEJO Evergem",
+    "image": "images/locations_Teamvoorstelling/Evergem/EvergemTeam.png",
+    "address": "Jeugdcentrum Kadet, Kapellestraat 54, 9940 Evergem",
+    "gallery": [
+        {
+            "src": "images/Location_Fotosacitviteiten/Evergem_Fotsaciteten/Image (1).jpg",
+            "alt": "Sfeerbeeld LEJO Evergem 1",
+            "caption": "Activiteit Evergem"
+        },
+        {
+            "src": "images/Location_Fotosacitviteiten/Evergem_Fotsaciteten/Jeugdhuis Kadet.jpg",
+            "alt": "Jeugdhuis Kadet - Evergem",
+            "caption": "Jeugdhuis Kadet"
+        }
+    ],
+    "media": [
+        { "id": "evergem-project-video-yt", "type": "youtube", "src": "https://youtu.be/your_video_id", "alt": "Projectvideo Evergem" }
+        
+    ],
+    "sections": [
+         {
+            "title": "Jeugdopbouwwerk Evergem & Compot",
+            "text": "LEJO is actief met jeugdopbouwwerk in Evergem centrum en de kanaaldorpen. Er is een sterke verbinding en samenwerking met de ervaringsgerichte plek Compot in Doornzele (ook deelgemeente van Evergem). We richten ons op het bereiken en versterken van jongeren in hun eigen leefomgeving.",
+            "links": [
+                { "text": "Meer over Compot", "url": "https://lejo.be/compot/" },
+                { "text": "Algemene info Jeugdopbouwwerk", "url": "https://lejo.be/jeugdopbouwwerk/" }
+            ]
+        }
+    ]
+},
+    {
+        "id": "zottegem",
+        "name": "Zottegem",
+        "coordinates": { "lat": 50.874445, "lon": 3.809167 },
+        "title": "LEJO Zottegem",
+        "image": "images/locations_Teamvoorstelling/Zottegem/Zottegem.png",
+        "address": "Beislovenstraat 4, Zottegem",
+        "gallery": [],
+        "media": [
+            {"id": "zottegem-week-vrijwilliger-sharepoint", "type":"sharepoint-link", "src":"https://lejo.sharepoint.com/sites/team/_layouts/15/stream.aspx?id=%2Fsites%2Fteam%2Fsup%20%20COMMUNICATIE%2F2024%2FCAMPAGNES%2FVrijwilligersweek%2Fexports%2FWeek%20van%20de%20vrijwilliger%20dag%201%2Emp4", "alt": "Week van de Vrijwilliger (SharePoint)"}
+        ],
+        "sections": [
+            { "title": "Jeugdopbouwwerk Zottegem", "text": "Opstart juni 2021. Ook Studijow.", "link":"https://lejo.be/jeugdopbouwwerk/", "mediaId":"zottegem-week-vrijwilliger-sharepoint"}
+        ]
+    },
+    {
+    "id": "denderleeuw",
+    "name": "Denderleeuw",
+    "coordinates": { "lat": 50.891389, "lon": 4.074167 },
+    "title": "LEJO Denderleeuw",
+    "image": "images/locations_Teamvoorstelling/Denderleeuw/voostelling team Denderleeuw.png",
+    "address": "Stationsstraat 7, 9470 Denderleeuw",
+    "gallery": [
+        ],
+    "media": [
+        {
+            "id": "denderleeuw-presenteert-yt",
+            "type": "youtube",
+            "src": "https://youtu.be/X7nxRS58CZ0",
+            "alt": "LEJO Denderleeuw stelt zich voor!"
+        }
+        
+    ],
+    "sections": [
+        {
+            "title": "Opbouwwerk in Denderleeuw",
+            "text": [
+                "LEJO is sinds september actief in Denderleeuw met een dynamische werking die zich richt op zowel jeugdopbouwwerk als schoolopbouwwerk. Ana en Mika vormen het kernteam en zetten zich in om jongeren te versterken en te verbinden.",
+                "Het opbouwwerk in Denderleeuw bestaat uit twee delen: een stuk jeugdopbouwwerk geleid door Mika, en een ander stuk gericht op onderwijsopbouwwerk met Ana."
+            ],
+            "link": "https://lejo.be/jeugdopbouwwerk/",
+            "linkText": "Meer over Jeugdopbouwwerk",
+            "mediaIds": [
+                "denderleeuw-presenteert-yt",
+                "denderleeuw-achterdeschermen-ig"
+            ]
+        },
+        {
+            "title": "Onze Aanpak",
+            "items": [
+                { "text": "<strong>Jeugdopbouwwerk (Mika):</strong> Focus op vrijetijdsbesteding, talentontwikkeling en het creëren van een positieve leefomgeving voor jongeren in Denderleeuw." },
+                { "text": "<strong>Schoolopbouwwerk (Ana):</strong> Ondersteuning van jongeren binnen de schoolcontext, het versterken van de link tussen school en vrije tijd, en het aanpakken van schoolgerelateerde uitdagingen." }
+            ]
+        }
+    ]
+    },
+{
+    "id": "lochristi",
+    "name": "Lochristi & Wachtebeke",
+    "coordinates": { "lat": 51.1079, "lon": 3.8364 },
+    "title": "LEJO Lochristi & Wachtebeke",
+    "image": "images/locations_Teamvoorstelling/Lochristi/JOW Lochristi.png", 
+    "address": "Contact via Jeugddienst Lochristi / Wachtebeke",
+    "gallery": [
+        {
+            "src": "images/Location_Fotosacitviteiten/Lochristi_Fotosactiviteiten/b091cd56-b444-478f-9b10-a44a3f68fb4d.jpg",
+            "alt": "LEJO Jeugdopbouwwerk in Lochristi & Wachtebeke (Bron: Nieuwsblad)",
+            "caption": "Artikel Nieuwsblad over Opstart"
+        }
+       
+    ],
+    "media": [
+        {
+            "id": "lochristi-nieuwsblad-artikel",
+            "type": "link",
+            "src": "https://www.nieuwsblad.be/cnt/dmf20250322_95959399",
+            "alt": "Lees artikel: Nieuwsblad over opstart LEJO"
+        },
+        {
+            "id": "lochristi-loactueel-reinaert-artikel",
+            "type": "link",
+            "src": "https://loactueel.be/vzw-reinaert-steunt-lejo-met-cheque-van-2-000-euro/",
+            "alt": "Lees artikel: VZW Reinaert steunt LEJO (LoActueel)"
+        }
+    ],
+    "sections": [
+        {
+            "title": "Jeugdopbouwwerk Lochristi & Wachtebeke",
+            "text": "LEJO is in mei 2024 gestart met jeugdopbouwwerk in Lochristi en Wachtebeke. We zetten ons in om jongeren te bereiken, te versterken en hen een stem te geven in hun gemeente. De opstart van onze werking werd positief onthaald en we kijken ernaar uit om samen met lokale partners en de jongeren zelf een mooi traject uit te bouwen.",
+            "link": "https://lejo.be/jeugdopbouwwerk/",
+            "linkText": "Meer over LEJO Jeugdopbouwwerk",
+            "mediaIds": [ 
+              
+            ]
+        },
+        {
+            "title": "In de Media & Steun",
+            "text": "Onze start en de steun die we ontvangen vanuit de lokale gemeenschap zijn belangrijk voor de verdere ontwikkeling van onze werking. Klik op de knoppen hierboven of hieronder om de artikels te lezen.",
+             "items": [ 
+                { "text": "Artikel over de opstart in het Nieuwsblad.", "mediaId": "lochristi-nieuwsblad-artikel"},
+                { "text": "VZW Reinaert toont haar steun voor LEJO met een gulle bijdrage, zoals bericht door LoActueel.", "mediaId": "lochristi-loactueel-reinaert-artikel"}
+            ]
+        }
+    ]
+},
+    {
+        "id": "meetjesland-eeklo",
+        "name": "Meetjesland (Eeklo)",
+        "coordinates": { "lat": 51.183333, "lon": 3.5675 },
+        "title": "LEJO Meetjesland (Eeklo)",
+        "image": "images/locations_Teamvoorstelling/Eeklo/EekloTeam.png",
+        "address": "Markt 1, 9900 Eeklo (OverKophuis)",
+        "gallery": [  ],
+        "media": [ ],
+        "sections": [
+            { "title": "Jeugdopbouwwerk Meetjesland (Eeklo)", "text": "Outreacher vanuit het jongerenhuis/OverKophuis in Eeklo.", "link": "https://lejo.be/jeugdopbouwwerk/"}
+           
+        ]
+    },
+   {
+    "id": "kortrijk",
+    "name": "Kortrijk",
+    "coordinates": { "lat": 50.825, "lon": 3.261667 },
+    "title": "LEJO Kortrijk",
+    "image": "images/locations_Teamvoorstelling/Kortrijk/Teamvoorstelling kortrijk.png",
+    "address": "Conservatoriumplein 1, 8500 Kortrijk",
+    "gallery": [
+        { "src": "images/Location_Fotosacitviteiten/Kortrijk_Fotosactiviteiten/kortrijk_sfeer1.jpg", "alt": "Sfeerbeeld LEJO Kortrijk 1", "caption": "Werking Kortrijk"},
+        { "src": "images/Location_Fotosacitviteiten/Kortrijk_Fotosactiviteiten/kortrijk_sfeer2.jpg", "alt": "Sfeerbeeld LEJO Kortrijk 2", "caption": "Projecten Kortrijk"}
+    ],
+    "media": [
+        {
+            "id": "kortrijk-konektor-jaaroverzicht-2022-yt",
+            "type": "youtube",
+            "src": "https://youtu.be/c0Z5g7eJ-yU",
+            "alt": "Zo zag 2022 eruit voor de Jeugdwerkingen van LEJO Kortrijk"
+        },
+        {
+            "id": "kortrijk-konektor-video-fb",
+            "type": "facebook-video",
+            "src": "https://www.facebook.com/watch/?v=689423245735986",
+            "alt": "De Konektor - Video Compilatie"
+        },
+        {
+            "id": "kortrijk-komuitjekot-sharepoint",
+            "type": "sharepoint-link",
+            "src": "https://lejo.sharepoint.com/sites/team/_layouts/15/stream.aspx?id=%2Fsites%2Fteam%2Fsup%20%20COMMUNICATIE%2F2022%2FMIDDELEN%2FJordi%20%26%20Anasse%20video%2FKom%20uit%20je%20kot%5FFINAL%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E2ce141b4%2Dafba%2D466d%2D8859%2Da0537fed6438",
+            "alt": "Kom uit je kot - Projectvideo (SharePoint)"
+        },
+        {
+            "id": "kortrijk-fortakune-vogezen-sharepoint", 
+            "type": "sharepoint-link", 
+            "src": "https://lejo-my.sharepoint.com/personal/jordi_haest_lejo_be/_layouts/15/stream.aspx?id=%2Fpersonal%2Fjordi%5Fhaest%5Flejo%5Fbe%2FDocuments%2FChatbestanden%20van%20Microsoft%20Teams%2FForta%20kune%20Vogezen%20trip%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1c4316e4%2D2d02%2D4625%2Dad01%2D14b16cd5303e&ga=1", 
+            "alt": "Filmpje Vogezen trip met Forta Kuné (zomer)"
+        },
+        {
+            "id": "kortrijk-konektor-mijnfilm-sharepoint",
+            "type": "sharepoint-link",
+            "src": "https://lejo.sharepoint.com/sites/team/_layouts/15/stream.aspx?id=%2Fsites%2Fteam%2Fwrk%20%20JEUGDWERK%2FJEUGDWERK%20VOOR%20JEUGDHULP%2FDE%20KONEKTOR%2FMijn%20film%2EMOV&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb1888891%2D19cc%2D43d7%2Da91c%2Deec330a243e1",
+            "alt": "Mijn film - De Konektor (SharePoint Video)"
+        }
+    ],
+    "sections": [
+        {
+            "title": "De Konektor",
+            "text": "Regionale outreachende begeleiding van jongeren uit residentiële voorzieningen jeugdhulp. We bieden ondersteuning op maat en helpen jongeren hun weg te vinden.",
+            "link": "https://leyouth.be/project/konektor-lejo/",
+            "linkText": "Meer over De Konektor",
+            "mediaIds":[
+                "kortrijk-konektor-jaaroverzicht-2022-yt",
+                "kortrijk-konektor-video-fb",
+                "kortrijk-konektor-mijnfilm-sharepoint",
+                "kortrijk-komuitjekot-sharepoint"
+            ]
+        },
+        {
+            "title": "Forta Kuné Kortrijk",
+            "text": "Intensieve ervaringstrajecten Forta Kuné, zoals de onvergetelijke trip naar de Vogezen, helpen jongeren hun grenzen te verleggen en persoonlijke groei te stimuleren.",
+            "link": "https://lejo.be/forta-kune/",
+            "linkText": "Ontdek Forta Kuné",
+            "mediaIds":[
+                "kortrijk-fortakune-vogezen-sharepoint" 
+            ]
+        },
+        {
+            "title": "Jeugdwerk voor Jeugdhulp Kortrijk",
+            "text": "LEJO Kortrijk biedt een specifiek en aangepast jeugdwerkaanbod voor jongeren die in contact staan met de jeugdhulp, met aandacht voor hun noden en interesses.",
+            "link": "https://lejo.be/jeugdwerk-voor-jeugdhulp/",
+            "linkText": "Info Jeugdwerk voor Jeugdhulp"
+        }
+    ]
+},
+
+    {
+    "id": "B-oost-meetjesland",
+    "name": "B-OOST-Meetjesland",
+    "coordinates": { "lat": 51.1801, "lon": 3.5802 },
+    "title": "LEJO B-Oost Meetjesland",
+    "image": "images/locations_Teamvoorstelling/Meetjesland/Meetjesland.png",
+    "address": "Regio Oost-Meetjesland, contact via LEJO",
+    "gallery": [
+
+    ],
+    "media": [
+        {
+            "id": "eeklo-deplek-docu-vimeo", 
+            "type": "vimeo-link", 
+            "src": "https://vimeo.com/892174139/d8a488aae2",
+            "alt": "Docu De Plek Eeklo (Vimeo)"
+        }
+    ],
+    "sections": [
+        {
+            "title": "B-Oost Meetjesland",
+            "text": [
+                "B-Oost is een samenwerkingsverband in de regio Oost-Meetjesland gericht op het versterken van jongeren en het creëren van kansen.",
+                "Partners in dit project zijn Compaan, Fiola, Lejo, VDAB, Welzijnsband Meetjesland en diverse lokale besturen in de regio.",
+                "Bekijk ook de documentaire 'De Plek Eeklo' die een mooi beeld geeft van gelijkaardige jeugdwerkingen in de bredere regio Meetjesland."
+            ],
+            "link": "https://lejo.be/jeugdopbouwwerk/",
+            "linkText": "Meer over LEJO's aanpak",
+            "mediaIds": ["eeklo-deplek-docu-vimeo"] 
+        },
+        {
+            "title": "Focus & Doelstellingen",
+            "text": "Het project focust op het verbinden van expertise en middelen om jongeren in het Oost-Meetjesland optimaal te ondersteunen in hun ontwikkeling, welzijn en participatie aan de samenleving."
+        }
+    ]
+}
+]

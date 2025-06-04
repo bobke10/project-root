@@ -1,0 +1,89 @@
+/* css/responsive.css */
+
+/* Kiosk is primary, but these help for development or smaller touch displays */
+
+@media (max-width: 1024px) { /* Larger tablets or smaller kiosk views */
+    #info-pane {
+        width: clamp(320px, 40vw, 450px);
+    }
+    .controls {
+        gap: 0.7rem;
+    }
+    .control-btn {
+        padding: 0.7rem 1.5rem;
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 768px) { /* Tablets */
+    :root {
+        --kiosk-base-font-size: 15px;
+    }
+    .controls {
+        gap: 0.5rem;
+        bottom: 1rem;
+        padding: 0.4rem;
+        max-width: 95%;
+    }
+    .control-btn {
+        padding: 0.7rem 1.2rem;
+        font-size: 0.9rem;
+    }
+    #info-pane {
+        width: clamp(300px, 60vw, 380px);
+    }
+    .anniversary-logo img { height: 50px; }
+    .zoom-level { font-size: 0.9em; padding: 0.7rem 1rem;}
+    #info-pane-title { font-size: 1.5em; }
+    .content-slide h1 { font-size: clamp(2.2rem, 5vw, 3.5rem); }
+    .content-slide h2 { font-size: clamp(1.6rem, 3.5vw, 2.2rem); }
+    .content-slide p { font-size: clamp(1rem, 2.2vw, 1.4rem); }
+
+    .detail-image-item {
+        flex-basis: calc(50% - 8px);
+        max-width: calc(50% - 8px);
+    }
+    .detail-image-item img { height: 100px; }
+}
+
+@media (max-width: 480px) { /* Mobile phones */
+    :root {
+        --kiosk-base-font-size: 14px;
+    }
+    .anniversary-logo { display: none; }
+    .zoom-level { left: 1rem; right: auto; }
+    .controls {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0.5rem;
+        bottom: 0.5rem;
+        border-radius: 25px;
+    }
+    .control-btn {
+        flex-grow: 1;
+        margin: 0.2rem;
+        padding: 0.6rem 0.8rem;
+        font-size: 0.85rem;
+    }
+    #info-pane {
+        width: 95vw;
+        right: -100vw;
+    }
+    #info-pane-image { height: 180px; }
+    #info-pane-content { padding: 15px; font-size: 0.95em; }
+    #info-pane-content h4 { font-size: 1.15em; }
+
+    .detail-image-item {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .detail-image-item img { height: 140px; }
+
+    .content-slide h1 { font-size: clamp(1.8rem, 6vw, 2.8rem); }
+    .content-slide h2 { font-size: clamp(1.4rem, 4vw, 2rem); }
+    .content-slide p { font-size: clamp(0.9rem, 2.5vw, 1.2rem); }
+    .slide-action-button { padding: 0.8rem 1.5rem; font-size: 1rem; }
+
+    .lightbox-close-btn { top: 5px; right: 5px; width: 30px; height: 30px; line-height: 30px; font-size: 1.2em; }
+    .lightbox-caption { font-size: 1em; bottom: -30px; }
+}

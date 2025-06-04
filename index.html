@@ -53,11 +53,31 @@
              </div>
              <button class="control-btn slide-action-button" onclick="app.showSlide('slide-intro')">Terug naar Begin</button>
         </div>
-         <div class="content-slide" id="slide-toekomst">
+        <div class="content-slide" id="slide-toekomst">
             <h1>De Volgende 45 Jaar</h1>
             <h2>Samen Verder Bouwen</h2>
             <p>Met uw steun blijven we investeren in de kracht van jongeren. Omdat elke jongere kansen verdient. Omdat LEJO verbindt en versterkt.</p>
-             <button class="control-btn slide-action-button" onclick="app.showSlide('slide-intro')">Terug naar Begin</button>
+            <button class="control-btn slide-action-button" onclick="app.showSlide('slide-intro')">Terug naar Begin</button>
+        </div>
+        <div class="content-slide" id="slide-contact">
+            <h1>Contact &amp; Info</h1>
+            <h2 style="font-size:1.4rem;margin-top:-0.5rem;">Lejo vzw &ndash; Versterkt jongeren</h2>
+            <p>Heb je vragen of wil je meer weten over onze werking? Neem gerust contact op.</p>
+            <ul style="list-style:none;padding:0;font-size:1.2rem;line-height:1.6;">
+                <li>📍 Antwerpsesteenweg 701, 9040 Sint-Amandsberg</li>
+                <li>✉️ <a href="mailto:info@lejo.be">info@lejo.be</a></li>
+                <li>☎️ <a href="tel:092232154">09/223 21 54</a></li>
+                <li>🌐 <a href="https://lejo.be" target="_blank" rel="noopener">lejo.be</a></li>
+                <li>📄 <a href="https://lejo.be/privacyverklaring/" target="_blank" rel="noopener">Privacyverklaring</a></li>
+                <li>👉 <a href="https://lejo.be/doe-mee/vacatures/" target="_blank" rel="noopener">Vacatures</a> &middot; <a href="https://lejo.be/downloads/" target="_blank" rel="noopener">Downloads</a></li>
+            </ul>
+            <div style="margin-top:1rem;">
+                <span style="font-weight:bold;margin-right:0.6rem;">Volg ons:</span>
+                <a href="https://www.facebook.com/lejoversterktjongeren" target="_blank" rel="noopener" style="margin-right:0.6rem;">Facebook</a>
+                <a href="https://www.instagram.com/lejoversterktjongeren/" target="_blank" rel="noopener" style="margin-right:0.6rem;">Instagram</a>
+                <a href="https://www.youtube.com/channel/UCdOJC6OhFmTZa-Dpmxekv1g" target="_blank" rel="noopener">YouTube</a>
+            </div>
+            <button class="control-btn slide-action-button" onclick="app.showSlide('slide-intro')">Terug naar Begin</button>
         </div>
     </div>
 
@@ -94,6 +114,7 @@
         <button class="control-btn" onclick="app.fitAllMarkers()" id="btn-fit-markers" title="Toon alle locaties">Alle Locaties</button>
         <button class="control-btn" onclick="app.showSlide('slide-werkingen')" id="btn-werkingen" title="Onze Werkingen">Werkingen</button>
         <button class="control-btn" onclick="app.showSlide('slide-toekomst')" id="btn-toekomst" title="Toekomstvisie">Toekomst</button>
+        <button class="control-btn" onclick="app.showSlide('slide-contact')" id="btn-contact" title="Contactinformatie">Contact</button>
     </div>
 
     <div id="lightbox" class="lightbox-overlay">
@@ -117,7 +138,7 @@
                 <li>👆 **Tik op markers** op de kaart om details van een LEJO locatie te zien.</li>
                 <li>🖼️ **Tik op afbeeldingen** (hoofdafbeelding of galerij) in het infopaneel om ze vergroot te bekijken.</li>
                 <li>▶️ **Tik op video/media knoppen** om video's af te spelen of links te openen (YouTube/PDF in app, andere extern).</li>
-                <li>🗺️ Gebruik de knoppen onderaan voor **kaartnavigatie** (Intro, Overzicht, Alle Locaties) en om **informatiepagina's** (Werkingen, Toekomst) te bekijken.</li>
+                <li>🗺️ Gebruik de knoppen onderaan voor **kaartnavigatie** (Intro, Overzicht, Alle Locaties) en om **informatiepagina's** (Werkingen, Toekomst, Contact) te bekijken.</li>
                 <li>ESC Gebruik de **Escape-toets** (indien fysiek toetsenbord beschikbaar) of de **sluitknoppen (×)** om vensters te sluiten.</li>
                 <li>🔍 Zoom in en uit op de kaart met de **+/- knoppen** rechtsonder of door te **knijpen/spreiden** met twee vingers op het scherm.</li>
             </ul>

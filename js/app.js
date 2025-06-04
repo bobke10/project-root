@@ -53,18 +53,6 @@ class App {
         }
     }
 
-    initialize() {
-        if (!this.mapManager || !this.ui) {
-            console.error("App initialization skipped due to missing core components.");
-            return;
-        }
-        this.mapManager.initializeMap();
-        this.loadDataAndSetup();
-        this.setupEventListeners();
-        this.updateZoomLevelIndicator('Introductie');
-        this.updateControlsActiveState();
-    }
-
     async loadDataAndSetup() {
         this.allLocationsData = await this.mapManager.fetchAndLoadMarkers('data/locations.json');
         this.handleLocationHash();

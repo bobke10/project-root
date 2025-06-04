@@ -480,6 +480,7 @@ class App {
             if (slideId === 'slide-intro') zoomText = 'Introductie';
             else if (slideId === 'slide-werkingen') zoomText = 'Onze Werkingen';
             else if (slideId === 'slide-toekomst') zoomText = 'De Toekomst';
+            else if (slideId === 'slide-contact') zoomText = 'Contact';
             this.updateZoomLevelIndicator(zoomText);
             if (window.location.hash) history.pushState(null, null, window.location.pathname + window.location.search);
             const mapInstance = this.mapManager.getMapInstance();
@@ -541,12 +542,14 @@ class App {
         const introBtn = document.getElementById('btn-intro');
         const werkBtn = document.getElementById('btn-werkingen');
         const toekBtn = document.getElementById('btn-toekomst');
+        const contactBtn = document.getElementById('btn-contact');
         const overviewBtn = document.getElementById('btn-overview');
         const fitMarkersBtn = document.getElementById('btn-fit-markers');
 
         if (introBtn) introBtn.disabled = (this.currentSlideId === 'slide-intro');
         if (werkBtn) werkBtn.disabled = (this.currentSlideId === 'slide-werkingen');
         if (toekBtn) toekBtn.disabled = (this.currentSlideId === 'slide-toekomst');
+        if (contactBtn) contactBtn.disabled = (this.currentSlideId === 'slide-contact');
 
         const mapInstance = this.mapManager.getMapInstance();
         if (overviewBtn && mapInstance) {

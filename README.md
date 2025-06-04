@@ -9,8 +9,9 @@ Clicking/tapping a marker makes it "active" (changes style) and triggers the dis
 Map controls include zoom (Leaflet default) and custom buttons for "Overview" (reset to Flanders view) and "Fit All Markers".
 Introductory Slides:
 Upon initial load, or when navigating via dedicated buttons, full-screen informational "slides" can overlay the map.
-Current slides include: "Introductie," "Onze Kernwerkingen," and "De Toekomst."
+Current slides include: "Introductie," "Onze Kernwerkingen," "De Toekomst," and "Contact."
 These slides provide general statistics and context about LEJO.
+The Contact slide lists our hoofdzetel, e-mail, telefoonnummer, website en links naar de privacyverklaring, vacatures en downloads van <https://lejo.be> en toont sociale media links.
 Info Pane (Sidebar):
 A detailed information panel slides in from the right when a map marker is tapped.
 The content of this pane is dynamically generated based on a structured locations.json file.
@@ -41,7 +42,7 @@ Help Overlay:
 A dedicated help button (?) opens a modal overlay with tips for using the kiosk application (e.g., how to interact with markers, images, navigation).
 Can be closed via a close button (×), clicking the overlay background, or the Escape key.
 Navigation & Controls:
-A persistent bottom bar contains buttons for: Intro, Overview (map), Alle Locaties (map), Werkingen (slide), Toekomst (slide).
+A persistent bottom bar contains buttons for: Intro, Overview (map), Alle Locaties (map), Werkingen (slide), Toekomst (slide), Contact (slide).
 A top-left anniversary logo.
 A top-right "Zoom Level" indicator that updates its text based on the current view (e.g., "Introductie," "Overzicht Vlaanderen," "Locatie: [Name]").
 Data Source (data/locations.json):
